@@ -30,7 +30,7 @@ import org.cytoscape.vsdl3c.internal.model.SPARQLQuery;
 import org.cytoscape.vsdl3c.internal.task.TransformTaskFactory;
 import org.cytoscape.work.swing.DialogTaskManager;
 
-import com.hp.hpl.jena.shared.PrefixMapping;
+import org.apache.jena.shared.PrefixMapping;
 
 /**
  * Dialog for SPARQL query

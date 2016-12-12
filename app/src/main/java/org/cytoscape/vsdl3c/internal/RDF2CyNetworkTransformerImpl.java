@@ -18,16 +18,16 @@ import org.cytoscape.session.CyNetworkNaming;
 import org.cytoscape.vsdl3c.RDF2CyNetworkTransformer;
 import org.cytoscape.vsdl3c.internal.model.SPARQLEndpoint;
 
-import com.hp.hpl.jena.query.QueryExecutionFactory;
-import com.hp.hpl.jena.rdf.model.Literal;
-import com.hp.hpl.jena.rdf.model.Model;
-import com.hp.hpl.jena.rdf.model.RDFNode;
-import com.hp.hpl.jena.rdf.model.Resource;
-import com.hp.hpl.jena.rdf.model.Statement;
-import com.hp.hpl.jena.rdf.model.StmtIterator;
-import com.hp.hpl.jena.shared.PrefixMapping;
-import com.hp.hpl.jena.sparql.engine.http.QueryEngineHTTP;
-import com.hp.hpl.jena.vocabulary.RDF;
+import org.apache.jena.query.QueryExecutionFactory;
+import org.apache.jena.rdf.model.Literal;
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.RDFNode;
+import org.apache.jena.rdf.model.Resource;
+import org.apache.jena.rdf.model.Statement;
+import org.apache.jena.rdf.model.StmtIterator;
+import org.apache.jena.shared.PrefixMapping;
+import org.apache.jena.sparql.engine.http.QueryEngineHTTP;
+import org.apache.jena.vocabulary.RDF;
 
 /**
  * Implementation of RDF2CyNetworkTransformer
@@ -70,7 +70,7 @@ public class RDF2CyNetworkTransformerImpl implements RDF2CyNetworkTransformer {
 	 * (non-Javadoc)
 	 * 
 	 * @see
-	 * org.cytoscape.vsdl3c.RDF2CyNetworkTransformer#transform(com.hp.hpl.jena
+	 * org.cytoscape.vsdl3c.RDF2CyNetworkTransformer#transform(org.apache.jena
 	 * .rdf.model.Model)
 	 */
 	public CyNetwork transform(Model model) {

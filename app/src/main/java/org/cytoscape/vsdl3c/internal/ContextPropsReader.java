@@ -13,8 +13,8 @@ import org.cytoscape.property.CyProperty;
 import org.cytoscape.property.PropertyUpdatedEvent;
 import org.cytoscape.property.PropertyUpdatedListener;
 
-import com.hp.hpl.jena.rdf.model.Model;
-import com.hp.hpl.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.ModelFactory;
 
 /**
  * During initialization of the plugin bundle, it loads the settings into

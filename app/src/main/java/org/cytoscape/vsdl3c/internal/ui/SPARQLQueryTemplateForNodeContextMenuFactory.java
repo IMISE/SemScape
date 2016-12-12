@@ -23,10 +23,10 @@ import org.cytoscape.vsdl3c.internal.model.SPARQLQueryTemplateForNode;
 import org.cytoscape.vsdl3c.internal.task.TransformTaskFactory;
 import org.cytoscape.work.TaskManager;
 
-import com.hp.hpl.jena.rdf.model.Model;
-import com.hp.hpl.jena.rdf.model.ResIterator;
-import com.hp.hpl.jena.shared.PrefixMapping;
-import com.hp.hpl.jena.vocabulary.RDF;
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.ResIterator;
+import org.apache.jena.shared.PrefixMapping;
+import org.apache.jena.vocabulary.RDF;
 
 /**
  * Context Menu Factory for parametric queries

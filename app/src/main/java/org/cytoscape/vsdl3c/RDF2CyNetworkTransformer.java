@@ -3,7 +3,7 @@ package org.cytoscape.vsdl3c;
 import org.cytoscape.model.CyNetwork;
 import org.cytoscape.vsdl3c.internal.model.SPARQLEndpoint;
 
-import com.hp.hpl.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.Model;
 
 /**
  * Transform RDF into CyNetwork
